@@ -1,4 +1,4 @@
-package Package1.Matches;
+package Package1.Pattern.Matches;
 
 public class test1 {
     public static void main(String[] args) {

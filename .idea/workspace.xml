@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="598084a8-eea8-4e17-bcd4-6c1ed51892c3" name="Changes" comment="upgraded calculator">
+    <list default="true" id="598084a8-eea8-4e17-bcd4-6c1ed51892c3" name="Changes" comment="matches">
+      <change afterPath="$PROJECT_DIR$/src/Package1/Regex/test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +40,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Qoreas/IdeaProjects/Experements&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
@@ -48,12 +50,12 @@
     </force-push-targets>
   </component>
   <component name="RunManager" selected="Application.test1">
-    <configuration name="BubbleSort_s2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.Sorts.BubbleSort_s2" />
+    <configuration name="Package1.Pattern.Matches.test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package1.Pattern.Matches.test1" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.Sorts.*" />
+          <option name="PATTERN" value="Package1.Pattern.Matches.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChoiceSort_s3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.Sorts.ChoiceSort_s3" />
+    <configuration name="Package1.Regex.test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package1.Regex.test1" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.Sorts.*" />
+          <option name="PATTERN" value="Package1.Regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,11 +90,11 @@
       </method>
     </configuration>
     <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.Matches.test1" />
+      <option name="MAIN_CLASS_NAME" value="Package1.Pattern.Regex.test1" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.Matches.*" />
+          <option name="PATTERN" value="Package1.Pattern.Regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,10 +118,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.test1" />
+        <item itemvalue="Application.Package1.Regex.test1" />
+        <item itemvalue="Application.Package1.Pattern.Matches.test1" />
         <item itemvalue="Application.test_v2" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.ChoiceSort_s3" />
-        <item itemvalue="Application.BubbleSort_s2" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +157,7 @@
       <workItem from="1675532737594" duration="135000" />
       <workItem from="1675532970837" duration="20000" />
       <workItem from="1675532992996" duration="2000" />
+      <workItem from="1676195950825" duration="855000" />
     </task>
     <task id="LOCAL-00001" summary="did 3 sort methods">
       <created>1672682888058</created>
@@ -177,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674759184775</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="matches">
+      <created>1676196130188</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676196130188</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +205,7 @@
     <MESSAGE value="did 3 sort methods" />
     <MESSAGE value="working calculator" />
     <MESSAGE value="upgraded calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgraded calculator" />
+    <MESSAGE value="matches" />
+    <option name="LAST_COMMIT_MESSAGE" value="matches" />
   </component>
 </project>
