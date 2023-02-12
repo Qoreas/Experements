@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="598084a8-eea8-4e17-bcd4-6c1ed51892c3" name="Changes" comment="working calculator">
-      <change afterPath="$PROJECT_DIR$/src/Package1/Calculator/Calculator_v2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package1/Calculator/test_v2.java" afterDir="false" />
+    <list default="true" id="598084a8-eea8-4e17-bcd4-6c1ed51892c3" name="Changes" comment="upgraded calculator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +42,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.test_v2">
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="main" />
+    </force-push-targets>
+  </component>
+  <component name="RunManager" selected="Application.test1">
     <configuration name="BubbleSort_s2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Package1.Sorts.BubbleSort_s2" />
       <module name="Experements" />
@@ -71,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Package1.Sorts.QuickSort_s1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.Sorts.QuickSort_s1" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package1.Calculator.test" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.Sorts.*" />
+          <option name="PATTERN" value="Package1.Calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.Calculator.test" />
+    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package1.Matches.test1" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.Calculator.*" />
+          <option name="PATTERN" value="Package1.Matches.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test1" />
         <item itemvalue="Application.test_v2" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.ChoiceSort_s3" />
         <item itemvalue="Application.BubbleSort_s2" />
-        <item itemvalue="Application.Package1.Sorts.QuickSort_s1" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +143,18 @@
       <workItem from="1674417480487" duration="69000" />
       <workItem from="1674750431342" duration="20000" />
       <workItem from="1674752388187" duration="2368000" />
-      <workItem from="1674754783369" duration="4149000" />
+      <workItem from="1674754783369" duration="4471000" />
+      <workItem from="1674841260185" duration="6000" />
+      <workItem from="1674842489098" duration="538000" />
+      <workItem from="1674928996531" duration="46000" />
+      <workItem from="1674929216623" duration="56000" />
+      <workItem from="1674929305126" duration="5000" />
+      <workItem from="1674931212926" duration="113000" />
+      <workItem from="1675101958834" duration="89000" />
+      <workItem from="1675190726105" duration="2000" />
+      <workItem from="1675532737594" duration="135000" />
+      <workItem from="1675532970837" duration="20000" />
+      <workItem from="1675532992996" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="did 3 sort methods">
       <created>1672682888058</created>
@@ -156,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673435990801</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="upgraded calculator">
+      <created>1674759184775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674759184775</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +194,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="did 3 sort methods" />
     <MESSAGE value="working calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="working calculator" />
+    <MESSAGE value="upgraded calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgraded calculator" />
   </component>
 </project>
