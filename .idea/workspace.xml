@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="598084a8-eea8-4e17-bcd4-6c1ed51892c3" name="Changes" comment="matches">
-      <change afterPath="$PROJECT_DIR$/src/Package1/Regex/test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package1/Predicate/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package1/Predicate/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package1/Predicate/concatPredicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package1/Predicate/createPredicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package1/Predicate/twoPredicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +29,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="94c4b183-e59c-4b6e-a6f5-07c124e44ac9" />
+        <option name="url" value="https://github.com/Qoreas/Experements" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -31,31 +53,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Qoreas/IdeaProjects/Experements&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Qoreas/IdeaProjects/Experements",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="main" />
     </force-push-targets>
   </component>
-  <component name="RunManager" selected="Application.test1">
-    <configuration name="Package1.Pattern.Matches.test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.Pattern.Matches.test1" />
+  <component name="RunManager" selected="Application.concatPredicates">
+    <configuration name="T1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package1.Predicate.T1" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.Pattern.Matches.*" />
+          <option name="PATTERN" value="Package1.Predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Package1.Regex.test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.Regex.test1" />
+    <configuration name="concatPredicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package1.Predicate.concatPredicates" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.Regex.*" />
+          <option name="PATTERN" value="Package1.Predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.Calculator.test" />
+    <configuration name="createPredicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package1.Predicate.createPredicates" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.Calculator.*" />
+          <option name="PATTERN" value="Package1.Predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_v2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.Calculator.test_v2" />
+    <configuration name="twoPredicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package1.Predicate.twoPredicates" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.Calculator.*" />
+          <option name="PATTERN" value="Package1.Predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.concatPredicates" />
+        <item itemvalue="Application.twoPredicates" />
+        <item itemvalue="Application.createPredicates" />
+        <item itemvalue="Application.T1" />
         <item itemvalue="Application.test1" />
-        <item itemvalue="Application.Package1.Regex.test1" />
-        <item itemvalue="Application.Package1.Pattern.Matches.test1" />
-        <item itemvalue="Application.test_v2" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
