@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="598084a8-eea8-4e17-bcd4-6c1ed51892c3" name="Changes" comment="explore predicates">
+      <change afterPath="$PROJECT_DIR$/src/ProlangCourse/Package1/NumbersMethods/compare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProlangCourse/Package1/NumbersMethods/valueOF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProlangCourse/Package1/conditionalOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package1/Predicate/T2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package1/Predicate/T2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +68,9 @@
       <force-push-target remote-path="origin" branch="main" />
     </force-push-targets>
   </component>
-  <component name="RunManager" selected="Application.T2">
-    <configuration name="T1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.Predicate.T1" />
+  <component name="RunManager" selected="Application.valueOF">
+    <configuration name="T2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package1.Predicate.T2" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
@@ -80,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.Predicate.T2" />
+    <configuration name="compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProlangCourse.Package1.NumbersMethods.compare" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.Predicate.*" />
+          <option name="PATTERN" value="ProlangCourse.Package1.NumbersMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="createPredicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.Predicate.createPredicates" />
+    <configuration name="conditionalOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProlangCourse.Package1.conditionalOperator" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.Predicate.*" />
+          <option name="PATTERN" value="ProlangCourse.Package1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="twoPredicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.Predicate.twoPredicates" />
+    <configuration name="valueOF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProlangCourse.Package1.NumbersMethods.valueOF" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.Predicate.*" />
+          <option name="PATTERN" value="ProlangCourse.Package1.NumbersMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.valueOF" />
+        <item itemvalue="Application.compare" />
+        <item itemvalue="Application.conditionalOperator" />
         <item itemvalue="Application.T2" />
         <item itemvalue="Application.concatPredicates" />
-        <item itemvalue="Application.twoPredicates" />
-        <item itemvalue="Application.createPredicates" />
-        <item itemvalue="Application.T1" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676559251909</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="explore predicates">
+      <created>1676618428564</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676618428564</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
