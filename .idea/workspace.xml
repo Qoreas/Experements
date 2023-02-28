@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598084a8-eea8-4e17-bcd4-6c1ed51892c3" name="Changes" comment="explore predicates">
-      <change afterPath="$PROJECT_DIR$/src/ProlangCourse/Package1/NumbersMethods/compare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProlangCourse/Package1/NumbersMethods/valueOF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProlangCourse/Package1/conditionalOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="hashmap" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +63,7 @@
       <force-push-target remote-path="origin" branch="main" />
     </force-push-targets>
   </component>
-  <component name="RunManager" selected="Application.valueOF">
+  <component name="RunManager" selected="Application.stringTest">
     <configuration name="T2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Package1.Predicate.T2" />
       <module name="Experements" />
@@ -95,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="concatPredicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.Predicate.concatPredicates" />
+    <configuration name="conditionalOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProlangCourse.Package1.conditionalOperator" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.Predicate.*" />
+          <option name="PATTERN" value="ProlangCourse.Package1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="conditionalOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProlangCourse.Package1.conditionalOperator" />
+    <configuration name="stringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProlangCourse.stringTest" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProlangCourse.Package1.*" />
+          <option name="PATTERN" value="ProlangCourse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.stringTest" />
         <item itemvalue="Application.valueOF" />
         <item itemvalue="Application.compare" />
         <item itemvalue="Application.conditionalOperator" />
         <item itemvalue="Application.T2" />
-        <item itemvalue="Application.concatPredicates" />
       </list>
     </recent_temporary>
   </component>

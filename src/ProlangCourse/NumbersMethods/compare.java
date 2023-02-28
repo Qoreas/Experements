@@ -1,4 +1,4 @@
-package ProlangCourse.Package1.NumbersMethods;
+package ProlangCourse.NumbersMethods;
 
 public class compare {
     public static void main(String[] args) {
