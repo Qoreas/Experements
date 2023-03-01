@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/Package1/Intefaces/Ex1/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package1/Intefaces/Ex1/Swimmable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package1/Intefaces/Ex2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package1/Intefaces/Ex2/Messengers/Messenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package1/Intefaces/Ex2/Messengers/Telegram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package1/Intefaces/Ex2/Messengers/Viber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package1/Intefaces/Ex2/Messengers/WhatsApp.java" afterDir="false" />
+    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="explore interface">
+      <change afterPath="$PROJECT_DIR$/src/Package1/Abstracts/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package1/Abstracts/Sedan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +71,20 @@
       <force-push-target remote-path="origin" branch="main" />
     </force-push-targets>
   </component>
-  <component name="RunManager" selected="Application.Package1.Intefaces.Ex1.Duck">
+  <component name="RunManager" selected="Application.Mockingjay">
+    <configuration name="Mockingjay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package1.DifferenceAbstarct_Interface.Mockingjay" />
+      <module name="Experements" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Package1.DifferenceAbstarct_Interface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Package1.Intefaces.Ex1.Duck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Package1.Intefaces.Ex1.Duck" />
       <module name="Experements" />
@@ -96,19 +104,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ProlangCourse.Package1.NumbersMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="conditionalOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProlangCourse.Package1.conditionalOperator" />
-      <module name="Experements" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ProlangCourse.Package1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mockingjay" />
         <item itemvalue="Application.Package1.Intefaces.Ex1.Duck" />
         <item itemvalue="Application.stringTest" />
         <item itemvalue="Application.valueOF" />
         <item itemvalue="Application.compare" />
-        <item itemvalue="Application.conditionalOperator" />
       </list>
     </recent_temporary>
   </component>
