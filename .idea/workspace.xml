@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="hashmap" />
+    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/Package1/Intefaces/Ex1/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package1/Intefaces/Ex1/Swimmable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package1/Intefaces/Ex2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package1/Intefaces/Ex2/Messengers/Messenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package1/Intefaces/Ex2/Messengers/Telegram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package1/Intefaces/Ex2/Messengers/Viber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package1/Intefaces/Ex2/Messengers/WhatsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -35,6 +45,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2JPpuhAq4tTYoQlNIdQQTbrP2Zc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -63,13 +76,13 @@
       <force-push-target remote-path="origin" branch="main" />
     </force-push-targets>
   </component>
-  <component name="RunManager" selected="Application.stringTest">
-    <configuration name="T2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.Predicate.T2" />
+  <component name="RunManager" selected="Application.Package1.Intefaces.Ex1.Duck">
+    <configuration name="Package1.Intefaces.Ex1.Duck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package1.Intefaces.Ex1.Duck" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.Predicate.*" />
+          <option name="PATTERN" value="Package1.Intefaces.Ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,18 +144,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Package1.Intefaces.Ex1.Duck" />
         <item itemvalue="Application.stringTest" />
         <item itemvalue="Application.valueOF" />
         <item itemvalue="Application.compare" />
         <item itemvalue="Application.conditionalOperator" />
-        <item itemvalue="Application.T2" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="598084a8-eea8-4e17-bcd4-6c1ed51892c3" name="Changes" comment="" />
+      <changelist id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="hashmap" />
       <created>1671989796681</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -172,6 +185,8 @@
       <workItem from="1675532970837" duration="20000" />
       <workItem from="1675532992996" duration="2000" />
       <workItem from="1676195950825" duration="855000" />
+      <workItem from="1677603061979" duration="258000" />
+      <workItem from="1677664835200" duration="1019000" />
     </task>
     <task id="LOCAL-00001" summary="did 3 sort methods">
       <created>1672682888058</created>
@@ -215,7 +230,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676618428564</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="moved">
+      <created>1677603299903</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677603299903</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test">
+      <created>1677603313639</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677603313639</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +264,8 @@
     <MESSAGE value="upgraded calculator" />
     <MESSAGE value="matches" />
     <MESSAGE value="explore predicates" />
-    <option name="LAST_COMMIT_MESSAGE" value="explore predicates" />
+    <MESSAGE value="moved" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
