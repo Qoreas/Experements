@@ -1,0 +1,7 @@
+STREAM CREATE
+
+Stream.empty() - empty
+list.stream() - for list
+map.entrySet.stream() - for map
+Arrays.stream(array) - for arrays
+Stream.of(1, 2, 3, 4) - for that elements

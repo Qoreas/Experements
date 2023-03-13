@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="explore interface">
-      <change afterPath="$PROJECT_DIR$/src/Package1/Abstracts/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package1/Abstracts/Sedan.java" afterDir="false" />
+    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="explore interface and abstract classes difference">
+      <change afterPath="$PROJECT_DIR$/src/Package1/StreamAPI/T1_intArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package1/StreamAPI/T2_arrayStream_split.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package1/StreamAPI/T3_collect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package1/StreamAPI/T4_reduce_sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package1/StreamAPI/create stream.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +74,7 @@
       <force-push-target remote-path="origin" branch="main" />
     </force-push-targets>
   </component>
-  <component name="RunManager" selected="Application.Mockingjay">
+  <component name="RunManager" selected="Application.T3_collect">
     <configuration name="Mockingjay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Package1.DifferenceAbstarct_Interface.Mockingjay" />
       <module name="Experements" />
@@ -98,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProlangCourse.Package1.NumbersMethods.compare" />
+    <configuration name="T1_intArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package1.StreamAPI.T1_intArray" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProlangCourse.Package1.NumbersMethods.*" />
+          <option name="PATTERN" value="Package1.StreamAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProlangCourse.stringTest" />
+    <configuration name="T2_arrayStream_split" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package1.StreamAPI.T2_arrayStream_split" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProlangCourse.*" />
+          <option name="PATTERN" value="Package1.StreamAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="valueOF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProlangCourse.Package1.NumbersMethods.valueOF" />
+    <configuration name="T3_collect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package1.StreamAPI.T3_collect" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProlangCourse.Package1.NumbersMethods.*" />
+          <option name="PATTERN" value="Package1.StreamAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T3_collect" />
+        <item itemvalue="Application.T2_arrayStream_split" />
+        <item itemvalue="Application.T1_intArray" />
         <item itemvalue="Application.Mockingjay" />
         <item itemvalue="Application.Package1.Intefaces.Ex1.Duck" />
-        <item itemvalue="Application.stringTest" />
-        <item itemvalue="Application.valueOF" />
-        <item itemvalue="Application.compare" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +185,9 @@
       <workItem from="1676195950825" duration="855000" />
       <workItem from="1677603061979" duration="258000" />
       <workItem from="1677664835200" duration="1019000" />
+      <workItem from="1678296149845" duration="1129000" />
+      <workItem from="1678554702777" duration="599000" />
+      <workItem from="1678729841040" duration="917000" />
     </task>
     <task id="LOCAL-00001" summary="did 3 sort methods">
       <created>1672682888058</created>
@@ -239,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677603313639</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="explore interface and abstract classes difference">
+      <created>1677671470147</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677671470147</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +274,7 @@
     <MESSAGE value="explore predicates" />
     <MESSAGE value="moved" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="explore interface and abstract classes difference" />
+    <option name="LAST_COMMIT_MESSAGE" value="explore interface and abstract classes difference" />
   </component>
 </project>
