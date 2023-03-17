@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="explore interface and abstract classes difference">
-      <change afterPath="$PROJECT_DIR$/src/Package1/StreamAPI/T1_intArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package1/StreamAPI/T2_arrayStream_split.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package1/StreamAPI/T3_collect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package1/StreamAPI/T4_reduce_sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package1/StreamAPI/create stream.txt" afterDir="false" />
+    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="explore stream">
+      <change afterPath="$PROJECT_DIR$/src/Package2/Comparator/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package2/Comparator/T2_stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package2/Comparator/T3_Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package2/Functional_Interfaces/T1_example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package2/Functional_Interfaces/T2_MyPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package2/Functional_Interfaces/T2_Predicates_test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package2/Supplier/RandomInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package2/Supplier/Supplier_test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,13 +77,13 @@
       <force-push-target remote-path="origin" branch="main" />
     </force-push-targets>
   </component>
-  <component name="RunManager" selected="Application.T3_collect">
-    <configuration name="Mockingjay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.DifferenceAbstarct_Interface.Mockingjay" />
+  <component name="RunManager" selected="Application.Package2.Comparator.T2_stream">
+    <configuration name="Message" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package2.Comparator.Message" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.DifferenceAbstarct_Interface.*" />
+          <option name="PATTERN" value="Package2.Comparator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Package1.Intefaces.Ex1.Duck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.Intefaces.Ex1.Duck" />
+    <configuration name="Package2.Comparator.T2_stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package2.Comparator.T2_stream" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.Intefaces.Ex1.*" />
+          <option name="PATTERN" value="Package2.Comparator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1_intArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.StreamAPI.T1_intArray" />
+    <configuration name="Package2.Supplier.Supplier_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package2.Supplier.Supplier_test" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.StreamAPI.*" />
+          <option name="PATTERN" value="Package2.Supplier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2_arrayStream_split" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.StreamAPI.T2_arrayStream_split" />
+    <configuration name="RandomInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package2.Supplier.RandomInt" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.StreamAPI.*" />
+          <option name="PATTERN" value="Package2.Supplier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_collect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package1.StreamAPI.T3_collect" />
+    <configuration name="T2_Predicates_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package2.Functional_Interfaces.T2_Predicates_test" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package1.StreamAPI.*" />
+          <option name="PATTERN" value="Package2.Functional_Interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T3_collect" />
-        <item itemvalue="Application.T2_arrayStream_split" />
-        <item itemvalue="Application.T1_intArray" />
-        <item itemvalue="Application.Mockingjay" />
-        <item itemvalue="Application.Package1.Intefaces.Ex1.Duck" />
+        <item itemvalue="Application.Package2.Comparator.T2_stream" />
+        <item itemvalue="Application.RandomInt" />
+        <item itemvalue="Application.Package2.Supplier.Supplier_test" />
+        <item itemvalue="Application.Package2.Comparator.Message" />
+        <item itemvalue="Application.T2_Predicates_test" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +190,8 @@
       <workItem from="1677664835200" duration="1019000" />
       <workItem from="1678296149845" duration="1129000" />
       <workItem from="1678554702777" duration="599000" />
-      <workItem from="1678729841040" duration="917000" />
+      <workItem from="1678729841040" duration="3740000" />
+      <workItem from="1679047011218" duration="3519000" />
     </task>
     <task id="LOCAL-00001" summary="did 3 sort methods">
       <created>1672682888058</created>
@@ -252,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677671470147</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="explore stream">
+      <created>1678730887575</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678730887575</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,6 +286,7 @@
     <MESSAGE value="moved" />
     <MESSAGE value="test" />
     <MESSAGE value="explore interface and abstract classes difference" />
-    <option name="LAST_COMMIT_MESSAGE" value="explore interface and abstract classes difference" />
+    <MESSAGE value="explore stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="explore stream" />
   </component>
 </project>
