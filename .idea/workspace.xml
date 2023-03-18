@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="explore linked list">
-      <change afterPath="$PROJECT_DIR$/src/Package2/Map_hashMap/T1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package2/Map_hashMap/T2_twoInOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package2/Map_hashMap/T3_forEach.java" afterDir="false" />
+    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="rename package">
+      <change afterPath="$PROJECT_DIR$/src/Package2/Map/TreeMap/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package2/Map/TreeMap/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +71,20 @@
       <force-push-target remote-path="origin" branch="main" />
     </force-push-targets>
   </component>
-  <component name="RunManager" selected="Application.T3_forEach">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package2.Map.TreeMap.Main" />
+      <module name="Experements" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Package2.Map.TreeMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Package2.Comparator.T2_stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Package2.Comparator.T2_stream" />
       <module name="Experements" />
@@ -86,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package2.Supplier.RandomInt" />
+    <configuration name="Package2.Map.HashMap.T3_forEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package2.Map.HashMap.T3_forEach" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package2.Supplier.*" />
+          <option name="PATTERN" value="Package2.Map.HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,11 +112,11 @@
       </method>
     </configuration>
     <configuration name="T1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package2.Map_hashMap.T1" />
+      <option name="MAIN_CLASS_NAME" value="Package2.Map.HashMap.T1" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package2.Map_hashMap.*" />
+          <option name="PATTERN" value="Package2.Map.HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,24 +125,11 @@
       </method>
     </configuration>
     <configuration name="T2_twoInOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package2.Map_hashMap.T2_twoInOne" />
+      <option name="MAIN_CLASS_NAME" value="Package2.Map.HashMap.T2_twoInOne" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package2.Map_hashMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T3_forEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package2.Map_hashMap.T3_forEach" />
-      <module name="Experements" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Package2.Map_hashMap.*" />
+          <option name="PATTERN" value="Package2.Map.HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T3_forEach" />
-        <item itemvalue="Application.T2_twoInOne" />
-        <item itemvalue="Application.T1_create" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Package2.Map.HashMap.T3_forEach" />
+        <item itemvalue="Application.Package2.Map.T2_twoInOne" />
+        <item itemvalue="Application.Package2.Map.T1" />
         <item itemvalue="Application.Package2.Comparator.T2_stream" />
-        <item itemvalue="Application.RandomInt" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +257,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678730887575</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="explore hashMap">
+      <created>1679162852024</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679162852025</updated>
+    </task>
+    <task id="LOCAL-00012" summary="rename package">
+      <created>1679162941324</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679162941324</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,6 +295,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="explore interface and abstract classes difference" />
     <MESSAGE value="explore stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="explore stream" />
+    <MESSAGE value="explore hashMap" />
+    <MESSAGE value="rename package" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename package" />
   </component>
 </project>
