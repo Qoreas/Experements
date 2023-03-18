@@ -1,7 +1,6 @@
-package Package2.Map_hashMap;
+package Package2.Map.HashMap;
 
 import java.util.HashMap;
-import java.util.Map;
 import java.util.Map.Entry;
 
 public class T3_forEach {
