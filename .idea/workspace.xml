@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="explore TreeMap">
-      <change afterPath="$PROJECT_DIR$/src/Package1/StreamAPI/Addition/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package1/StreamAPI/Addition/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package1/StreamAPI/Addition/T1.java" afterDir="false" />
+    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="new information about stream API">
+      <change afterPath="$PROJECT_DIR$/src/Package2/CreateLinkedListV1/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package2/CreateLinkedListV1/LinkedList_demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package2/CreateLinkedListV2/LinkedListV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package2/CreateLinkedListV2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,7 +76,20 @@
       <force-push-target remote-path="origin" branch="main" />
     </force-push-targets>
   </component>
-  <component name="RunManager" selected="Application.Package1.StreamAPI.Addition.T1">
+  <component name="RunManager" selected="Application.Package2.CreateLinkedListV2.Main">
+    <configuration name="LinkedList_demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package2.CreateLinkedListV1.LinkedList_demo" />
+      <module name="Experements" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Package2.CreateLinkedListV1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Package2.Map.TreeMap.Main" />
       <module name="Experements" />
@@ -99,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Package2.Comparator.T2_stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package2.Comparator.T2_stream" />
+    <configuration name="Package2.CreateLinkedListV2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package2.CreateLinkedListV2.Main" />
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package2.Comparator.*" />
+          <option name="PATTERN" value="Package2.CreateLinkedListV2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,38 +129,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Package2.Map.HashMap.T3_forEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package2.Map.HashMap.T3_forEach" />
+    <configuration name="f" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="f" />
       <module name="Experements" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Package2.Map.HashMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T2_twoInOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package2.Map.HashMap.T2_twoInOne" />
-      <module name="Experements" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Package2.Map.HashMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Package2.CreateLinkedListV2.Main" />
+        <item itemvalue="Application.Package2.CreateLinkedListV1.LinkedList_demo" />
+        <item itemvalue="Application.f" />
         <item itemvalue="Application.Package1.StreamAPI.Addition.T1" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Package2.Map.HashMap.T3_forEach" />
-        <item itemvalue="Application.Package2.Comparator.T2_stream" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +186,21 @@
       <workItem from="1678729841040" duration="3740000" />
       <workItem from="1679047011218" duration="3519000" />
       <workItem from="1679424053626" duration="4000" />
-      <workItem from="1680544493871" duration="2011000" />
+      <workItem from="1680544493871" duration="2284000" />
+      <workItem from="1680622967755" duration="1531000" />
+      <workItem from="1681047355659" duration="6000" />
+      <workItem from="1681122893470" duration="285000" />
+      <workItem from="1681837285136" duration="321000" />
+      <workItem from="1681837657464" duration="154000" />
+      <workItem from="1681837834618" duration="338000" />
+      <workItem from="1681838207265" duration="32000" />
+      <workItem from="1681838251009" duration="23000" />
+      <workItem from="1681838282581" duration="47000" />
+      <workItem from="1681838340938" duration="46000" />
+      <workItem from="1681838398423" duration="16000" />
+      <workItem from="1681838447611" duration="36000" />
+      <workItem from="1681838501560" duration="20000" />
+      <workItem from="1681838538081" duration="5647000" />
     </task>
     <task id="LOCAL-00001" summary="did 3 sort methods">
       <created>1672682888058</created>
@@ -280,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679165014158</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="new information about stream API">
+      <created>1680546785965</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680546785965</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,6 +327,28 @@
     <MESSAGE value="explore hashMap" />
     <MESSAGE value="rename package" />
     <MESSAGE value="explore TreeMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="explore TreeMap" />
+    <MESSAGE value="new information about stream API" />
+    <option name="LAST_COMMIT_MESSAGE" value="new information about stream API" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Package2/CreateLinkedListV2/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Package2/CreateLinkedListV2/Main.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Package2.CreateLinkedListV2.LinkedListV2" memberName="head" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
