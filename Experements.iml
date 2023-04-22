@@ -7,5 +7,38 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="JUnit5.8.1">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../Libraries/junit-jupiter-5.8.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libraries/junit-jupiter-api-5.8.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libraries/opentest4j-1.2.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libraries/junit-platform-commons-1.8.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libraries/apiguardian-api-1.1.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libraries/junit-jupiter-params-5.8.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libraries/junit-jupiter-engine-5.8.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libraries/junit-platform-engine-1.8.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../Libraries/junit-jupiter-5.8.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libraries/junit-jupiter-api-5.8.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libraries/opentest4j-1.2.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libraries/junit-platform-commons-1.8.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libraries/apiguardian-api-1.1.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libraries/junit-jupiter-params-5.8.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libraries/junit-jupiter-engine-5.8.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libraries/junit-platform-engine-1.8.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="junit.jupiter" level="project" />
   </component>
 </module>
