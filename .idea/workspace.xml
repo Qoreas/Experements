@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="attempt to understand and create linked list">
-      <change afterPath="$PROJECT_DIR$/src/Package2/JUnit_test/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package2/JUnit_test/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="explore Junit">
+      <change afterPath="$PROJECT_DIR$/src/python/07.04.23_15.2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Experements.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Experements.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -73,7 +71,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
     "last_opened_file_path": "C:/Users/Qoreas/IdeaProjects/Experements",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.keymap"
@@ -88,11 +86,14 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Qoreas\IdeaProjects\Experements\src\python" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Package2.JUnit_test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserTest">
+  <component name="RunManager" selected="Python.07.04.23_15.2">
     <configuration name="Package2.CreateLinkedListV2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Package2.CreateLinkedListV2.Main" />
       <module name="Experements" />
@@ -102,13 +103,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="f" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="f" />
-      <module name="Experements" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,13 +154,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="07.04.23_15.2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Experements" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python/07.04.23_15.2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.07.04.23_15.2" />
         <item itemvalue="JUnit.UserTest" />
         <item itemvalue="JUnit.UserTest.getAllUsers_NO_NULL" />
         <item itemvalue="JUnit.UserTest.getAllUsers" />
         <item itemvalue="Application.Package2.CreateLinkedListV2.Main" />
-        <item itemvalue="Application.f" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +243,8 @@
       <workItem from="1681838538081" duration="5896000" />
       <workItem from="1681845637318" duration="22000" />
       <workItem from="1682151407684" duration="74000" />
-      <workItem from="1682151745343" duration="3616000" />
+      <workItem from="1682151745343" duration="3913000" />
+      <workItem from="1682452246530" duration="438000" />
     </task>
     <task id="LOCAL-00001" summary="did 3 sort methods">
       <created>1672682888058</created>
@@ -334,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681845587477</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="explore Junit">
+      <created>1682156726470</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682156726470</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -363,7 +387,8 @@
     <MESSAGE value="explore TreeMap" />
     <MESSAGE value="new information about stream API" />
     <MESSAGE value="attempt to understand and create linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="attempt to understand and create linked list" />
+    <MESSAGE value="explore Junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="explore Junit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
