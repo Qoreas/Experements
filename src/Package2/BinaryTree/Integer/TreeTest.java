@@ -19,15 +19,15 @@ class TreeTest {
     }
 
     @Test
-    void printReverseOrder() {
-        Tree tree = createTree();
-        tree.printReverseOrder(tree.root());
-    }
-
-    @Test
     void printNaturalOrder() {
         Tree tree = createTree();
         tree.printNaturalOrder(tree.root());
+    }
+
+    @Test
+    void printReverseOrder() {
+        Tree tree = createTree();
+        tree.printReverseOrder(tree.root());
     }
 
     @Test
