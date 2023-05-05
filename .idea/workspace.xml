@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="add python sdk">
-      <change afterPath="$PROJECT_DIR$/src/Package2/BinaryTree/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Package2/BinaryTree/TreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="explore stack and queue realization">
+      <change afterPath="$PROJECT_DIR$/src/Package2/BinaryTree/TreeMap/TreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package2/BinaryTree/TreeMap/TreeMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package3/Stack_Queue/SimpleStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Package2/BinaryTree/Integer/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package2/BinaryTree/Integer/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Package2/BinaryTree/Integer/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package2/BinaryTree/Integer/TreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Package2/BinaryTree/Tree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Package2/BinaryTree/TreeTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Python Script" />
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -30,6 +34,8 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -92,37 +98,91 @@
       <recent name="C:\Users\Qoreas\IdeaProjects\Experements\src\python" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Package3.Stack_Queue" />
+      <recent name="Package2.BinaryTree.TreeMap" />
       <recent name="Package2.BinaryTree" />
       <recent name="Package2.JUnit_test" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Package2.BinaryTree.TreeMap" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.BinaryTreeTest.createBinaryTree">
-    <configuration name="BinaryTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SimpleQueueTest.print">
+    <configuration name="SimpleQueueTest.print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package2.BinaryTree.*" />
+          <option name="PATTERN" value="Package3.Stack_Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Package2.BinaryTree" />
-      <option name="MAIN_CLASS_NAME" value="Package2.BinaryTree.BinaryTreeTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Package3.Stack_Queue" />
+      <option name="MAIN_CLASS_NAME" value="Package3.Stack_Queue.SimpleQueueTest" />
+      <option name="METHOD_NAME" value="print" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeTest.createBinaryTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleStackTest.print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Experements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Package2.BinaryTree.*" />
+          <option name="PATTERN" value="Package3.Stack_Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Package2.BinaryTree" />
-      <option name="MAIN_CLASS_NAME" value="Package2.BinaryTree.BinaryTreeTest" />
-      <option name="METHOD_NAME" value="createBinaryTree" />
+      <option name="PACKAGE_NAME" value="Package3.Stack_Queue" />
+      <option name="MAIN_CLASS_NAME" value="Package3.Stack_Queue.SimpleStackTest" />
+      <option name="METHOD_NAME" value="print" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeMapTest.printKeysNaturalOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Experements" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Package2.BinaryTree.TreeMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Package2.BinaryTree.TreeMap" />
+      <option name="MAIN_CLASS_NAME" value="Package2.BinaryTree.TreeMap.TreeMapTest" />
+      <option name="METHOD_NAME" value="printKeysNaturalOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeMapTest.printValuesNaturalOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Experements" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Package2.BinaryTree.TreeMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Package2.BinaryTree.TreeMap" />
+      <option name="MAIN_CLASS_NAME" value="Package2.BinaryTree.TreeMap.TreeMapTest" />
+      <option name="METHOD_NAME" value="printValuesNaturalOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeTest.printNaturalOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Experements" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Package2.BinaryTree.Integer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Package2.BinaryTree.Integer" />
+      <option name="MAIN_CLASS_NAME" value="Package2.BinaryTree.Integer.TreeTest" />
+      <option name="METHOD_NAME" value="printNaturalOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,8 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BinaryTreeTest.createBinaryTree" />
-        <item itemvalue="JUnit.BinaryTreeTest" />
+        <item itemvalue="JUnit.SimpleQueueTest.print" />
+        <item itemvalue="JUnit.SimpleStackTest.print" />
+        <item itemvalue="JUnit.TreeMapTest.printKeysNaturalOrder" />
+        <item itemvalue="JUnit.TreeMapTest.printValuesNaturalOrder" />
+        <item itemvalue="JUnit.TreeTest.printNaturalOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +263,8 @@
       <workItem from="1682865733873" duration="172000" />
       <workItem from="1682865916154" duration="5908000" />
       <workItem from="1683023019225" duration="3524000" />
-      <workItem from="1683054888348" duration="348000" />
+      <workItem from="1683054888348" duration="1074000" />
+      <workItem from="1683222987412" duration="6823000" />
     </task>
     <task id="LOCAL-00001" summary="did 3 sort methods">
       <created>1672682888058</created>
@@ -321,7 +385,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682452914465</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="creating binary tree...">
+      <created>1683055276283</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1683055276283</updated>
+    </task>
+    <task id="LOCAL-00019" summary="explore stack and queue realization">
+      <created>1683232806489</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1683232806489</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,7 +430,9 @@
     <MESSAGE value="attempt to understand and create linked list" />
     <MESSAGE value="explore Junit" />
     <MESSAGE value="add python sdk" />
-    <option name="LAST_COMMIT_MESSAGE" value="add python sdk" />
+    <MESSAGE value="creating binary tree..." />
+    <MESSAGE value="explore stack and queue realization" />
+    <option name="LAST_COMMIT_MESSAGE" value="explore stack and queue realization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
