@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="treeMap created">
-      <change afterPath="$PROJECT_DIR$/src/python/25.06.23_15.2.py" afterDir="false" />
+    <list default="true" id="26e75f47-7acb-40e2-b0f2-d861f2192b6a" name="Changes" comment="oge task">
+      <change afterPath="$PROJECT_DIR$/src/Package1/StreamAPI/addition2/test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package2/Comparator/add_InterfaceLambda/Comparator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package2/Comparator/add_InterfaceLambda/MyInter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package2/Comparator/add_InterfaceLambda/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Package2/Comparator/add_InterfaceLambda/interfaceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +23,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="Python Script" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -101,7 +105,46 @@
       <recent name="Package2.BinaryTree.TreeMap" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.25.06.23_15.2">
+  <component name="RunManager" selected="Application.test1">
+    <configuration name="Comparator2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package2.Comparator.add_InterfaceLambda.Comparator2" />
+      <module name="Experements" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Package2.Comparator.add_InterfaceLambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Package2.Comparator.add_InterfaceLambda.interfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package2.Comparator.add_InterfaceLambda.interfaceTest" />
+      <module name="Experements" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Package2.Comparator.add_InterfaceLambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package1.StreamAPI.addition2.test1" />
+      <module name="Experements" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Package1.StreamAPI.addition2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleQueueTest.print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Experements" />
       <extension name="coverage">
@@ -113,54 +156,6 @@
       <option name="PACKAGE_NAME" value="Package3.Stack_Queue" />
       <option name="MAIN_CLASS_NAME" value="Package3.Stack_Queue.SimpleQueueTest" />
       <option name="METHOD_NAME" value="print" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleStackTest.print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Experements" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Package3.Stack_Queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Package3.Stack_Queue" />
-      <option name="MAIN_CLASS_NAME" value="Package3.Stack_Queue.SimpleStackTest" />
-      <option name="METHOD_NAME" value="print" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeMapTest.printKeysNaturalOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Experements" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Package2.BinaryTree.TreeMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Package2.BinaryTree.TreeMap" />
-      <option name="MAIN_CLASS_NAME" value="Package2.BinaryTree.TreeMap.TreeMapTest" />
-      <option name="METHOD_NAME" value="printKeysNaturalOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeMapTest.printValuesNaturalOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Experements" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Package2.BinaryTree.TreeMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Package2.BinaryTree.TreeMap" />
-      <option name="MAIN_CLASS_NAME" value="Package2.BinaryTree.TreeMap.TreeMapTest" />
-      <option name="METHOD_NAME" value="printValuesNaturalOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test1" />
+        <item itemvalue="Application.Package2.Comparator.add_InterfaceLambda.interfaceTest" />
+        <item itemvalue="Application.Comparator2" />
         <item itemvalue="Python.25.06.23_15.2" />
         <item itemvalue="JUnit.SimpleQueueTest.print" />
-        <item itemvalue="JUnit.SimpleStackTest.print" />
-        <item itemvalue="JUnit.TreeMapTest.printKeysNaturalOrder" />
-        <item itemvalue="JUnit.TreeMapTest.printValuesNaturalOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -272,6 +267,7 @@
       <workItem from="1685216277044" duration="207000" />
       <workItem from="1687697683780" duration="1075000" />
       <workItem from="1687699025654" duration="16000" />
+      <workItem from="1688647845500" duration="1704000" />
     </task>
     <task id="LOCAL-00001" summary="did 3 sort methods">
       <created>1672682888058</created>
@@ -427,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683264766327</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="oge task">
+      <created>1688647866765</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1688647866765</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -464,7 +467,8 @@
     <MESSAGE value="treeMap created" />
     <MESSAGE value="fixup! added simple stack class" />
     <MESSAGE value="fixup! explore stack and queue realization" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixup! explore stack and queue realization" />
+    <MESSAGE value="oge task" />
+    <option name="LAST_COMMIT_MESSAGE" value="oge task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
